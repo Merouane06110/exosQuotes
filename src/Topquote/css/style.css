@@ -1,3 +1,22 @@
+
+
+
+
+
+
 body{
-    background-color: blue;
+    margin: 0;
+    background: url(/docs/background.jpg);
+    background-size: cover;
+    color: var(--color-text);
+    display: flex;
+}
+nav{
+    background-color: #684b99;
+    padding: 1rem;
+    width: 200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
